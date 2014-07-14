@@ -22,6 +22,7 @@
 		ACE531691972335C00C5A169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE531481972335C00C5A169 /* UIKit.framework */; };
 		ACE531711972335C00C5A169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE5316F1972335C00C5A169 /* InfoPlist.strings */; };
 		ACE531731972335C00C5A169 /* LineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE531721972335C00C5A169 /* LineChartTests.m */; };
+		ACE5317E1972347400C5A169 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5317D1972347400C5A169 /* LineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		ACE5316E1972335C00C5A169 /* LineChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LineChartTests-Info.plist"; sourceTree = "<group>"; };
 		ACE531701972335C00C5A169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACE531721972335C00C5A169 /* LineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChartTests.m; sourceTree = "<group>"; };
+		ACE5317C1972347400C5A169 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		ACE5317D1972347400C5A169 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				ACE5315D1972335C00C5A169 /* ViewController.m */,
 				ACE5315F1972335C00C5A169 /* Images.xcassets */,
 				ACE5314B1972335C00C5A169 /* Supporting Files */,
+				ACE5317C1972347400C5A169 /* LineChartView.h */,
+				ACE5317D1972347400C5A169 /* LineChartView.m */,
 			);
 			path = LineChart;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				ACE5315E1972335C00C5A169 /* ViewController.m in Sources */,
 				ACE531551972335C00C5A169 /* AppDelegate.m in Sources */,
 				ACE531511972335C00C5A169 /* main.m in Sources */,
+				ACE5317E1972347400C5A169 /* LineChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

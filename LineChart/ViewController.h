@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LineChartView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <LineChartViewDataSource>
+@property (weak, nonatomic) IBOutlet LineChartView *lineChart;
 
 @end
